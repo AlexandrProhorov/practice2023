@@ -1,0 +1,32 @@
+.Catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Product_Wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 15px;
+    h2 {
+        color: green;
+        font-size: 20px;
+    }
+}
+
+.Content_Container {
+    display:flex;
+    flex-direction: column;
+
+    img {
+        width: 20%;
+    }
+}
+
+.Info_Container {
+    display: flex;
+    flex-direction: column;
+}
