@@ -2,8 +2,11 @@ import ProductPreview from "./ProductPreview"
 import { NavLink } from "react-router-dom";
 import { Outlet } from 'react-router-dom'
 
+
 const ProductItem = (props) => {
-    let path = '/products/' + props.id;
+    let productId = props.id;
+    let path = '/products/' + productId;
+
     return (
         <div>
             <div className="d">
