@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from "../header/Header"
 import Footer from "../footer/Footer"
 import Catalog from "../product/Catalog"
-import Product from "../product/Product"
+import ProductPage from "../product/ProductPage"
 
 const App = (props) => {
 
@@ -15,7 +15,7 @@ const App = (props) => {
         <div>
           <Routes>
             <Route path= "/" element ={ <Catalog products={props.appState.products}/>} />
-              <Route path= "/products/*" element = { <Product products={props.appState.products}/> }/>
+              <Route path= "/products/*" element = { <ProductPage products={props.appState.products}/> }/>
           </Routes>
         </div>
         <div className="Footer">

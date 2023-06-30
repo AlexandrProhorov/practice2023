@@ -1,7 +1,7 @@
 // import image from './../../static/img/загруженное.png'
 import styles from "./../../static/css/catalog/Catalog.module.scss"
 
-const Product = (props) => {
+const ProductPreview = (props) => {
 
     return (
         <div className={styles.Product_Wrapper}>
@@ -19,4 +19,4 @@ const Product = (props) => {
     )
 }
 
-export default Product;
+export default ProductPreview;
