@@ -1,19 +1,43 @@
 .Catalog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.News {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    h2 {
+        font-weight: lighter;
+    }
+}
+
+.Product_Container {
+    display: block;
+    a{
+        text-decoration: none;
+    }
+
 }
 
 .Product_Wrapper {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
-    background-color: greenyellow;
-    border: 2px solid black;
-    margin: 15px;
+    width: 310px;
+    margin: 40px;
+    margin-bottom: 40px;
     h2 {
-        color: green;
+        color: black;
         font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

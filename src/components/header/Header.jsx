@@ -1,9 +1,10 @@
 import styles from "./../../static/css/header/Header.module.scss"
+import logo from "./../../static/img/logo.png"
 
 const Header = () => {
     return (
         <div className={styles.Header}>
-            <h1>Magazin Prikolov</h1>
+            <img src= {logo} alt="logo" />
         </div>
     )
 }

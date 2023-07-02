@@ -1,13 +1,20 @@
 .Header {
     width: 100%;
-    background-color: blueviolet;
+    background-color: #f58e2a;
     height: 120px;
+    display: flex;
+    flex-direction: row;
+    
+    h1 {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        padding-top: 3%;
+        color: white;
+    }
+    
+    img {
+        scale: 0.5;
+    }
 }
 
-.Header h1 {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    padding-top: 3%;
-    color: white;
-}
