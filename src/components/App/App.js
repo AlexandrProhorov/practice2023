@@ -4,6 +4,7 @@ import Footer from "../footer/Footer"
 import Catalog from "../product/Catalog"
 import Products from "../product/Products"
 
+
 const App = (props) => {
 
   return (
@@ -12,6 +13,7 @@ const App = (props) => {
         <div className="App-header">
           <Header />
         </div>
+
         <div>
           <Routes>
             <Route path= "/" element ={ <Catalog products={props.appState.products}/>} />

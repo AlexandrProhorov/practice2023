@@ -10,14 +10,20 @@ const ProductPage = (props) => {
                 <h2>{props.name}</h2>
                 <div className={styles.Middle_Container}>
                     <img src={props.image} alt="" />
-                    <div className={styles.Cost_Container}>
-                        <h2>{props.cost} ₽</h2>
-                        <button className={styles.Add_To_Card}>Добавить в корзину</button>
+                    <div>
+                        <div className={styles.Description_Container}>
+                            <h2>О товаре:</h2>
+                            <p>{props.description}</p>
+                        </div>
+                        <div className={styles.Cost_Container}>
+                            <h2>{props.cost} ₽</h2>
+                            <button className={styles.Add_To_Card}>Добавить в корзину</button>
+                        </div>
                     </div>
                 </div>
-                <div className={styles.Description_Container}>
-                    <h2>О товаре:</h2>
-                    <p>{props.description}</p>
+                <div className={styles.About}>
+                    <h2>Пищевая ценность:</h2>
+                    {props.about}
                 </div>
             </div>
         </div>
