@@ -55,3 +55,20 @@
     flex-direction: column;
 }
 
+.AdWrapper {
+    background-image: url(./../../img/bigxleb.jpg);
+    height: 700px;
+    width: 100%;
+    color: white;
+    h2 {
+        margin-left: 19%;
+        font-size: 40px;
+        margin-top: 0;
+        padding-top: 260px;
+        font-weight: 200;
+    }
+    p {
+        margin-left: 19%;
+        font-size: 20px;
+    }
+}

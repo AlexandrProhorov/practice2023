@@ -1,0 +1,33 @@
+.CarouselBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.item1 {
+    background-color: green;
+}
+
+.item2 {
+    background-color: coral;
+}
+
+.item3 {
+    background-color: blueviolet;
+}
+
+.Main_Container {
+    height: 150px;
+    width: 450px;
+}
+
+.Window {
+    height: 100%;
+    width: 100%;
+}
+
+.All_Pages_Container {
+    height: 100%;
+    display: flex;
+}
