@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import styles from "./../../static/css/catalog/Product.module.scss"
+import styles from "./Product.module.scss"
 
 const ProductPage = (props) => {
     const navigate = useNavigate();

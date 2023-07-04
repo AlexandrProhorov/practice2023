@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from "../header/Header"
 import Footer from "../footer/Footer"
-import Catalog from "../product/Catalog"
-import Products from "../product/Products"
+import Catalog from "../product/catalog/Catalog"
+import Products from "../product/productPage/Products"
 
 const App = (props) => {
 
