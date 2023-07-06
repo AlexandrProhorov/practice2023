@@ -1,16 +1,21 @@
-// import image1 from "./../../static/img/h1.jpg"
-// import image2 from "./../../static/img/h2.jpg"
-import styles from "./Carousel.module.scss"
-import { Carousel } from "react-bootstrap"
+import styles from "./Carousel.module.scss";
+import { Carousel } from "react-bootstrap";
 
-const CarouselBox = () => {
-    return(
-        <Carousel className={styles.CarouselBox}>
-            <div className={styles.item1}>item1</div>
-            <div className={styles.item2}>item1</div>
-            <div className={styles.item3}>item1</div>
-        </Carousel>
-    )
-}
+
+
+const CarouselBox = (props) => {
+    return (
+        <div className={styles.CarouselBox}>
+            <Carousel>
+                <Carousel.Item>
+                    <img className={styles.item1} src={props.image} alt="s" />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className={styles.item1} src={props.image2} alt="s" />
+                </Carousel.Item>
+            </Carousel>
+        </div>
+    );
+};
 
 export default CarouselBox;

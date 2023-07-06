@@ -9,6 +9,7 @@ const Products = (props) => {
             cost={product.cost}
             description={product.description}
             image={product.image}
+            image2={product.image2}
             about={product.about}
         />
     ));

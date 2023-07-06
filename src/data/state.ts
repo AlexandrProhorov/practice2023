@@ -10,6 +10,7 @@ interface Product {
     cost: string;
     description: string;
     image: string;
+    image2: string;
     about: string;
 }
 
@@ -18,7 +19,7 @@ interface State {
 }
 
 let s: string;
-s = "s";
+s = "очень вкусный хлеб с отрубями";
 
 let state: State = {
     products: [
@@ -29,6 +30,7 @@ let state: State = {
             description:
                 "Батон Ароматный классика. Сухое молоко в составе придает батону нежный молочный вкус и аромат. Батон Ароматный прекрасно дополнит чаепитие в качестве основы для бутерброда или самостоятельного лакомства.",
             image: h1,
+            image2: h2,
             about: "Пищевая ценность на 100 г продукта Белки 8,0 г Жиры 4,5 г Углеводы 50,0 г Энергетическая ценность 270ккал/1130кДж Масса нетто 0,35 кг Срок хранения 50 часов",
         },
         {
@@ -37,6 +39,7 @@ let state: State = {
             cost: "36",
             description: "blablabla this is chair",
             image: h2,
+            image2: h2,
             about: s,
         },
         {
@@ -45,6 +48,7 @@ let state: State = {
             cost: "36",
             description: "blablabla this is chair",
             image: h3,
+            image2: h2,
             about: s,
         },
         {
@@ -53,6 +57,7 @@ let state: State = {
             cost: "32",
             description: "blablabla this is chair",
             image: h4,
+            image2: h2,
             about: s,
         },
         {
@@ -61,6 +66,7 @@ let state: State = {
             cost: "33",
             description: "blablabla this is chair",
             image: h5,
+            image2: h2,
             about: s,
         },
         {
@@ -69,6 +75,7 @@ let state: State = {
             cost: "35",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
         {
@@ -77,6 +84,7 @@ let state: State = {
             cost: "25",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
         {
@@ -85,6 +93,7 @@ let state: State = {
             cost: "26",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
         {
@@ -93,6 +102,7 @@ let state: State = {
             cost: "29",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
         {
@@ -101,6 +111,7 @@ let state: State = {
             cost: "42",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
         {
@@ -109,6 +120,7 @@ let state: State = {
             cost: "34",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
         {
@@ -117,6 +129,7 @@ let state: State = {
             cost: "21",
             description: "blablabla this is chair",
             image: h1,
+            image2: h2,
             about: s,
         },
     ],
