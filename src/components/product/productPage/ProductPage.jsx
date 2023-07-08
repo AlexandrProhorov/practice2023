@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Product.module.scss"
 import CarouselBox from "../../carousel/Carousel";
+import ReviewPage from "../feedBack/FeedBackItem";
 
 const ProductPage = (props) => {
     const navigate = useNavigate();
@@ -26,7 +27,10 @@ const ProductPage = (props) => {
                     <h2>Пищевая ценность:</h2>
                     {props.about}
                 </div>
+
             </div>
+            Оставьте ваш отзыв:
+            <ReviewPage />
         </div>
     )
 }
