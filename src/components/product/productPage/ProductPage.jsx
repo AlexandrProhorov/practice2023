@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Product.module.scss"
 import CarouselBox from "../../carousel/Carousel";
 import ReviewPage from "../feedBack/FeedBackItem";
+import ItemChart from "./Chart.tsx";
 
 const ProductPage = (props) => {
     const navigate = useNavigate();
@@ -20,6 +21,9 @@ const ProductPage = (props) => {
                         <div className={styles.Cost_Container}>
                             <h2>{props.cost} ₽</h2>
                             <button className={styles.Add_To_Card}>Добавить в корзину</button>
+                        </div>
+                        <div className="Chart">
+                            <ItemChart minCost={props.minCost} maxCost={props.maxCost} />
                         </div>
                     </div>
                 </div>

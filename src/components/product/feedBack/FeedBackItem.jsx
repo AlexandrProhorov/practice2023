@@ -12,7 +12,7 @@ const ReviewPage = () => {
             reviewInputRef.current.value = "";
         }
     }
-
+    
     return (
         <div className={styles.ReviewBlock}>
             <textarea type="text" cols="100" rows="5" ref={reviewInputRef} />
@@ -21,6 +21,7 @@ const ReviewPage = () => {
                 {reviews.map((review, index) => (
                     <div className={styles.ReviewItem} key={index}>{review}</div>
                 ))}
+                
             </div>
         </div>
     );

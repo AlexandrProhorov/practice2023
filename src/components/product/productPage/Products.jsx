@@ -11,6 +11,8 @@ const Products = (props) => {
             image={product.image}
             image2={product.image2}
             about={product.about}
+            minCost={product.minCost}
+            maxCost={product.maxCost}
         />
     ));
     let currentLocation = window.location.href.split("/").pop();
