@@ -1,18 +1,16 @@
-.CarouselBox {
-    width: 500px;
-}
-
-.item1 {
+.Slider {
     display: flex;
-    width: 500px;
+    flex-direction: row;
 
-}
+    button {
+        height: 25px;
+        width: 10%;
+        background-color: white;
+        border: none;
+        color: orange;
+        scale: 2.5;
+        margin: auto;
+    }
 
-.item2 {
-    display: flex;
-    width: 500px;
-}
 
-.carousel-control-next {
-    background-color:black !important;
 }

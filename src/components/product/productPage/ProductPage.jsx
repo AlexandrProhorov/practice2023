@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./Product.module.scss"
-import CarouselBox from "../../carousel/Carousel";
 import ReviewPage from "../feedBack/FeedBackItem";
 import ItemChart from "./Chart.tsx";
+import Slider from "./../../carousel/Slider"
 
 const ProductPage = (props) => {
     const navigate = useNavigate();
@@ -12,7 +12,7 @@ const ProductPage = (props) => {
             <div className={styles.Info_Container}>
                 <h2>{props.name}</h2>
                 <div className={styles.Middle_Container}>
-                <CarouselBox image={props.image} image2={props.image2}/>
+                <Slider image ={props.image} image2 = {props.image2} />
                     <div>
                         <div className={styles.Description_Container}>
                             <h2>О товаре:</h2>
