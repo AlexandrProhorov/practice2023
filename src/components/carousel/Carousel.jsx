@@ -1,8 +1,6 @@
 import styles from "./Carousel.module.scss";
 import { Carousel } from "react-bootstrap";
 
-
-
 const CarouselBox = (props) => {
     return (
         <div className={styles.CarouselBox}>
